@@ -1,3 +1,5 @@
+import StudentInfo from "../../components/StudentInfo";
+
 export default function About() {
   return (
     <section>
@@ -7,6 +9,11 @@ export default function About() {
         I am a web development student learning how to build modern
         applications with Next.js.
       </p>
+
+      <StudentInfo
+        name="Oluwaseyi Elujoba"
+        program="Web Development"
+      />
     </section>
   );
 }
